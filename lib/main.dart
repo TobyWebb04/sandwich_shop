@@ -15,11 +15,18 @@ class App extends StatelessWidget {
         appBar: AppBar(title:const Text('Sandwich Counter')),
         body: Center(
           child: Container(
-            width: 500,
-            height: 250,
+            width: 1000,
+            height: 400,
             color: Colors.blue,
             alignment: Alignment.center,
-            child: OrderItemDisplay(5, 'Footlong'),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                OrderItemDisplay(5, 'Footlong'),
+                OrderItemDisplay(3, 'club'),
+                OrderItemDisplay(2, 'BLT'),
+              ],
+            ),
           ),
         ),
       ),
@@ -35,7 +42,7 @@ class OrderItemDisplay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('$quantity $itemType sandwich(es): ${'🥪' * quantity}');
+    return Text('$quantity $itemType sandwich(es): ${'🥪' * quantity}     :    ');
   }
 }
 
