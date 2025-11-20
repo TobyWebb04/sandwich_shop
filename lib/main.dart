@@ -52,31 +52,23 @@ class _OrderScreenState extends State<OrderScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            // SegmentedButton for sandwich type selection
             Padding(
               padding: const EdgeInsets.only(bottom: 16.0),
               child: Column(
                 children: [
                   Text(
                     'Select Sandwich Type: $_selectedType',
-                    style: Theme.of(context)
-                        .textTheme
-                        .titleLarge, // Use titleLarge instead of headline6
+                    style: Theme.of(context).textTheme.titleLarge,
                   ),
                   Slider(
-                    value: _selectedType == 'Footlong'
-                        ? 1.0
-                        : 0.0, // Map to 0 or 1
+                    value: _selectedType == 'Footlong' ? 1.0 : 0.0,
                     min: 0,
                     max: 1,
-                    divisions:
-                        1, // Make it only have 2 discrete values (0 and 1)
+                    divisions: 1,
                     label: _selectedType,
                     onChanged: (double value) {
                       setState(() {
-                        _selectedType = value == 1.0
-                            ? 'Footlong'
-                            : 'Six-inch'; // Map slider value to type
+                        _selectedType = value == 1.0 ? 'Footlong' : 'Six-inch';
                       });
                     },
                   ),
