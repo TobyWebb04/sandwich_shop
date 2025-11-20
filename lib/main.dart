@@ -13,7 +13,6 @@ class App extends StatelessWidget {
       title: 'Sandwich Shop App',
       home: OrderScreen(maxQuantity: 5),
     );
-        
   }
 }
 
@@ -46,53 +45,69 @@ class _OrderScreenState extends State<OrderScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    appBar: AppBar(
-      title: const Text('Sandwich Counter'),
-    ),
-    body: Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          // SegmentedButton for sandwich type selection
+      appBar: AppBar(
+        title: const Text('Sandwich Counter'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            // SegmentedButton for sandwich type selection
             Padding(
               padding: const EdgeInsets.only(bottom: 16.0),
-              child: SegmentedButton<String>(
-                segments: const [
-                  ButtonSegment(value: 'Footlong', label: Text('Footlong')),
-                  ButtonSegment(value: 'Six-inch', label: Text('Six-inch')),
+              child: Column(
+                children: [
+                  Text(
+                    'Select Sandwich Type: $_selectedType',
+                    style: Theme.of(context)
+                        .textTheme
+                        .titleLarge, // Use titleLarge instead of headline6
+                  ),
+                  Slider(
+                    value: _selectedType == 'Footlong'
+                        ? 1.0
+                        : 0.0, // Map to 0 or 1
+                    min: 0,
+                    max: 1,
+                    divisions:
+                        1, // Make it only have 2 discrete values (0 and 1)
+                    label: _selectedType,
+                    onChanged: (double value) {
+                      setState(() {
+                        _selectedType = value == 1.0
+                            ? 'Footlong'
+                            : 'Six-inch'; // Map slider value to type
+                      });
+                    },
+                  ),
                 ],
-                selected: <String>{_selectedType},
-                onSelectionChanged: (Set<String> newSelection) {
-                  setState(() {
-                    _selectedType = newSelection.first;
-                  });
-                },
               ),
             ),
             OrderItemDisplay(
               _quantity,
               _selectedType,
             ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              StyledButton(
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                StyledButton(
                   text: 'Add',
-                  onPressed: _quantity < widget.maxQuantity ? _increaseQuantity : null,
+                  onPressed:
+                      _quantity < widget.maxQuantity ? _increaseQuantity : null,
                   backgroundColor: Colors.green,
                   foregroundColor: Colors.white,
-              ),
-              StyledButton(
-                text: 'Remove',
-                onPressed: _quantity > 0 ? _decreaseQuantity : null,
-                backgroundColor: Colors.red,
-                foregroundColor: Colors.white,
-              ),
-            ],
-          ),
-        ],
+                ),
+                StyledButton(
+                  text: 'Remove',
+                  onPressed: _quantity > 0 ? _decreaseQuantity : null,
+                  backgroundColor: Colors.red,
+                  foregroundColor: Colors.white,
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
-    ),
     );
   }
 }
@@ -132,7 +147,8 @@ class OrderItemDisplay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('$quantity $itemType sandwich(es): ${'🥪' * quantity}     :    ');
+    return Text(
+        '$quantity $itemType sandwich(es): ${'🥪' * quantity}     :    ');
   }
 }
 
@@ -208,8 +224,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    return Scaffold
-    (
+    return Scaffold(
       appBar: AppBar(
         // TRY THIS: Try changing the color here to a specific color (to
         // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
@@ -224,8 +239,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         // ignore: prefer_const_constructors
-        child: Column
-        (
+        child: Column(
           // Column is also a layout widget. It takes a list of children and
           // arranges them vertically. By default, it sizes itself to fit its
           // children horizontally, and tries to be as tall as its parent.
@@ -242,7 +256,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           // ignore: prefer_const_literals_to_create_immutables
           children: <Widget>[
-            const Text('Welcome to my shop!'),         
+            const Text('Welcome to my shop!'),
           ],
         ),
       ),
