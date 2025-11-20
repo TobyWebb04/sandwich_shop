@@ -1,0 +1,109 @@
+2025-11-06 15:55:32.886: [INFO] VisibilityChanged: 0
+2025-11-06 15:55:32.928: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.929: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.931: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.932: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.932: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.933: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.933: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.934: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.935: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.935: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.935: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:32.953: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 15:55:32.953: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 15:55:33.002: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:33.327: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:55:33.331: [INFO] Primary account changed.
+2025-11-06 15:55:33.331: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2025-11-06 15:55:33.334: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-11-06 15:56:58.330: [INFO] VisibilityChanged: 0
+2025-11-06 15:56:58.375: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 15:56:58.375: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 16:22:25.545: [INFO] VisibilityChanged: 0
+2025-11-06 16:22:25.595: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 16:22:25.595: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 16:30:59.241: [INFO] VisibilityChanged: 0
+2025-11-06 16:30:59.288: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 16:30:59.288: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 16:38:16.923: [INFO] VisibilityChanged: 0
+2025-11-06 16:38:16.973: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 16:38:16.973: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 23:00:13.726: [INFO] VisibilityChanged: 0
+2025-11-06 23:00:13.778: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 23:00:13.778: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 23:13:46.745: [INFO] VisibilityChanged: 0
+2025-11-06 23:13:46.790: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 23:13:46.790: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 23:14:49.167: [INFO] VisibilityChanged: 0
+2025-11-06 23:14:49.214: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 23:14:49.214: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 23:22:44.648: [INFO] VisibilityChanged: 0
+2025-11-06 23:22:44.691: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 23:22:44.691: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 23:23:44.774: [INFO] VisibilityChanged: 0
+2025-11-06 23:23:44.821: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 23:23:44.821: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 23:24:35.970: [INFO] VisibilityChanged: 0
+2025-11-06 23:24:36.016: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 23:24:36.016: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 23:25:48.574: [INFO] VisibilityChanged: 0
+2025-11-06 23:25:48.621: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 23:25:48.621: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 23:27:01.760: [INFO] VisibilityChanged: 0
+2025-11-06 23:27:01.805: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 23:27:01.805: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 23:28:43.640: [INFO] VisibilityChanged: 0
+2025-11-06 23:28:43.685: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 23:28:43.685: [INFO] OnDoneLoading sync enabled: 0
+2025-11-06 23:29:55.335: [INFO] VisibilityChanged: 0
+2025-11-06 23:29:55.388: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-06 23:29:55.388: [INFO] OnDoneLoading sync enabled: 0
+2025-11-13 16:17:57.145: [INFO] VisibilityChanged: 0
+2025-11-13 16:17:57.339: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-13 16:17:57.339: [INFO] OnDoneLoading sync enabled: 0
+2025-11-13 16:36:19.892: [INFO] VisibilityChanged: 0
+2025-11-13 16:36:19.952: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-13 16:36:19.952: [INFO] OnDoneLoading sync enabled: 0
+2025-11-13 16:38:43.280: [INFO] VisibilityChanged: 0
+2025-11-13 16:38:43.325: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-13 16:38:43.325: [INFO] OnDoneLoading sync enabled: 0
+2025-11-13 16:53:25.135: [INFO] VisibilityChanged: 0
+2025-11-13 16:53:25.231: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-13 16:53:25.231: [INFO] OnDoneLoading sync enabled: 0
+2025-11-13 17:01:01.354: [INFO] VisibilityChanged: 0
+2025-11-13 17:01:01.431: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-13 17:01:01.432: [INFO] OnDoneLoading sync enabled: 0
+2025-11-13 17:07:42.857: [INFO] VisibilityChanged: 0
+2025-11-13 17:07:42.921: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-13 17:07:42.921: [INFO] OnDoneLoading sync enabled: 0
+2025-11-13 17:14:08.432: [INFO] VisibilityChanged: 0
+2025-11-13 17:14:08.515: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-13 17:14:08.515: [INFO] OnDoneLoading sync enabled: 0
+2025-11-13 17:24:24.931: [INFO] VisibilityChanged: 0
+2025-11-13 17:24:24.999: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-13 17:24:24.999: [INFO] OnDoneLoading sync enabled: 0
+2025-11-13 17:34:46.734: [INFO] VisibilityChanged: 0
+2025-11-13 17:34:46.800: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-13 17:34:46.800: [INFO] OnDoneLoading sync enabled: 0
+2025-11-14 10:06:00.157: [INFO] VisibilityChanged: 0
+2025-11-14 10:06:00.253: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-14 10:06:00.253: [INFO] OnDoneLoading sync enabled: 0
+2025-11-14 10:09:08.007: [INFO] VisibilityChanged: 0
+2025-11-14 10:09:08.078: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-14 10:09:08.078: [INFO] OnDoneLoading sync enabled: 0
+2025-11-14 10:14:08.044: [INFO] VisibilityChanged: 0
+2025-11-14 10:14:08.120: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-14 10:14:08.120: [INFO] OnDoneLoading sync enabled: 0
+2025-11-14 10:51:54.050: [INFO] VisibilityChanged: 0
+2025-11-14 10:51:54.115: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-14 10:51:54.115: [INFO] OnDoneLoading sync enabled: 0
+2025-11-20 17:36:31.669: [INFO] VisibilityChanged: 0
+2025-11-20 17:36:31.726: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-20 17:36:31.726: [INFO] OnDoneLoading sync enabled: 0
+2025-11-20 17:45:48.065: [INFO] VisibilityChanged: 0
+2025-11-20 17:45:48.118: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-20 17:45:48.118: [INFO] OnDoneLoading sync enabled: 0
+2025-11-20 17:50:42.363: [INFO] VisibilityChanged: 0
+2025-11-20 17:50:42.414: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-11-20 17:50:42.414: [INFO] OnDoneLoading sync enabled: 0

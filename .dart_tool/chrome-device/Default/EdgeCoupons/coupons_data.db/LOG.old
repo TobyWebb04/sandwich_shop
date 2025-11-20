@@ -1,0 +1,67 @@
+2025/11/20-17:45:55.684 3ad4 Reusing MANIFEST C:\Users\UP2200~1\AppData\Local\Temp\flutter_tools.ae239eed\flutter_tools_chrome_device.a649abdf\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/11/20-17:45:55.687 3ad4 Recovering log #94
+2025/11/20-17:45:55.688 3ad4 Reusing old log C:\Users\UP2200~1\AppData\Local\Temp\flutter_tools.ae239eed\flutter_tools_chrome_device.a649abdf\Default\EdgeCoupons/coupons_data.db/000094.log 
+2025/11/20-17:45:55.690 3ad4 Delete type=0 #4
+2025/11/20-17:45:55.690 3ad4 Delete type=0 #7
+2025/11/20-17:45:55.690 3ad4 Delete type=2 #8
+2025/11/20-17:45:55.690 3ad4 Delete type=0 #10
+2025/11/20-17:45:55.690 3ad4 Delete type=2 #11
+2025/11/20-17:45:55.690 3ad4 Delete type=0 #13
+2025/11/20-17:45:55.690 3ad4 Delete type=2 #14
+2025/11/20-17:45:55.700 3ad4 Delete type=0 #16
+2025/11/20-17:45:55.701 3ad4 Delete type=2 #17
+2025/11/20-17:45:55.701 3ad4 Delete type=0 #19
+2025/11/20-17:45:55.716 3ad4 Delete type=2 #21
+2025/11/20-17:45:55.716 3ad4 Delete type=0 #23
+2025/11/20-17:45:55.717 3ad4 Delete type=2 #24
+2025/11/20-17:45:55.717 3ad4 Delete type=0 #26
+2025/11/20-17:45:55.717 3ad4 Delete type=2 #27
+2025/11/20-17:45:55.717 3ad4 Delete type=0 #29
+2025/11/20-17:45:55.730 3ad4 Delete type=2 #30
+2025/11/20-17:45:55.730 3ad4 Delete type=0 #32
+2025/11/20-17:45:55.731 3ad4 Delete type=2 #34
+2025/11/20-17:45:55.747 3ad4 Delete type=0 #36
+2025/11/20-17:45:55.748 3ad4 Delete type=2 #37
+2025/11/20-17:45:55.748 3ad4 Delete type=0 #39
+2025/11/20-17:45:55.749 3ad4 Delete type=2 #40
+2025/11/20-17:45:55.749 3ad4 Delete type=0 #42
+2025/11/20-17:45:55.749 3ad4 Delete type=2 #43
+2025/11/20-17:45:55.749 3ad4 Delete type=0 #45
+2025/11/20-17:45:55.749 3ad4 Delete type=2 #47
+2025/11/20-17:45:55.749 3ad4 Delete type=0 #49
+2025/11/20-17:45:55.749 3ad4 Delete type=2 #50
+2025/11/20-17:45:55.749 3ad4 Delete type=0 #52
+2025/11/20-17:45:55.750 3ad4 Delete type=2 #53
+2025/11/20-17:45:55.750 3ad4 Delete type=0 #55
+2025/11/20-17:45:55.750 3ad4 Delete type=2 #56
+2025/11/20-17:45:55.750 3ad4 Delete type=0 #58
+2025/11/20-17:45:55.750 3ad4 Delete type=2 #60
+2025/11/20-17:45:55.750 3ad4 Delete type=0 #62
+2025/11/20-17:45:55.763 3ad4 Delete type=2 #63
+2025/11/20-17:45:55.763 3ad4 Delete type=0 #65
+2025/11/20-17:45:55.764 3ad4 Delete type=2 #66
+2025/11/20-17:45:55.764 3ad4 Delete type=0 #68
+2025/11/20-17:45:55.764 3ad4 Delete type=2 #69
+2025/11/20-17:45:55.764 3ad4 Delete type=0 #71
+2025/11/20-17:45:55.764 3ad4 Delete type=2 #73
+2025/11/20-17:45:55.764 3ad4 Delete type=0 #75
+2025/11/20-17:45:55.765 3ad4 Delete type=2 #76
+2025/11/20-17:45:55.765 3ad4 Delete type=0 #78
+2025/11/20-17:45:55.765 3ad4 Delete type=2 #79
+2025/11/20-17:45:55.765 3ad4 Delete type=0 #81
+2025/11/20-17:45:55.765 3ad4 Delete type=2 #82
+2025/11/20-17:45:55.765 3ad4 Delete type=0 #84
+2025/11/20-17:45:55.765 3ad4 Delete type=0 #88
+2025/11/20-17:45:55.766 3ad4 Delete type=0 #91
+2025/11/20-17:45:55.828 fa0 Level-0 table #98: started
+2025/11/20-17:45:55.833 fa0 Level-0 table #98: 672612 bytes OK
+2025/11/20-17:45:55.834 fa0 Delete type=0 #94
+2025/11/20-17:45:55.834 fa0 Compacting 4@0 + 1@1 files
+2025/11/20-17:45:55.840 fa0 Generated table #99@0: 3 keys, 672612 bytes
+2025/11/20-17:45:55.840 fa0 Compacted 4@0 + 1@1 files => 672612 bytes
+2025/11/20-17:45:55.840 fa0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/20-17:45:55.841 fa0 Delete type=2 #86
+2025/11/20-17:45:55.841 fa0 Delete type=2 #89
+2025/11/20-17:45:55.841 fa0 Delete type=2 #92
+2025/11/20-17:45:55.841 fa0 Delete type=2 #95
+2025/11/20-17:45:55.841 fa0 Delete type=2 #98
